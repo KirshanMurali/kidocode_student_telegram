@@ -1,0 +1,5 @@
+
+local f = assert(io.open("test.txt", "r"))
+local t = f:read("*all")
+print(t)
+f:close()
